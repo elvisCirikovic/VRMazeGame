@@ -4,7 +4,19 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Hub.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Elvis' Maze.unity
+    guid: 28e0c80622b50d6419752350a9da614c
+  - enabled: 1
+    path: Assets/Scenes/Shi Wei's Maze.unity
+    guid: eebcd8d6712eee0468ab224328d32e02
+  - enabled: 1
+    path: Assets/Scenes/Oliver's Maze.unity
+    guid: 58c346dd3ad91bb4fbc6d72ffe60b502
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 65cbc56bc6f82da4dae93c9d9f937991, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: f628d32e8601f184b919d653e0c375f6, type: 2}
