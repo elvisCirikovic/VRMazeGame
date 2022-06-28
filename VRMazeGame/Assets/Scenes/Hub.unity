@@ -2789,6 +2789,7 @@ GameObject:
   - component: {fileID: 1109771832}
   - component: {fileID: 1109771831}
   - component: {fileID: 1109771830}
+  - component: {fileID: 1109771835}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2901,6 +2902,19 @@ RectTransform:
   m_AnchoredPosition: {x: 1.68, y: 2.01}
   m_SizeDelta: {x: 2, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1109771835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1109771829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ede3759b6a8e0c049b970c3986ccf833, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hide_ui: {fileID: 1109771829}
 --- !u!1 &1113149161
 GameObject:
   m_ObjectHideFlags: 0
@@ -3035,6 +3049,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1113149161}
   m_CullTransparentMesh: 1
+--- !u!1 &1218291663 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6878729072026622221, guid: d78c7094c2b6b5849a4268178ff90145, type: 3}
+  m_PrefabInstance: {fileID: 1818273627}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1252471850
 GameObject:
   m_ObjectHideFlags: 0
@@ -4330,6 +4349,19 @@ Camera:
   m_CorrespondingSourceObject: {fileID: 6878729072026622449, guid: d78c7094c2b6b5849a4268178ff90145, type: 3}
   m_PrefabInstance: {fileID: 1818273627}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1818273632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1218291663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41db05b89d063b741b3ffebd059a1946, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Ui: {fileID: 1109771829}
 --- !u!1 &1860633295 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 082be48531bf06b42960347d119c209f, type: 3}
@@ -4369,6 +4401,96 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 203458371695166868, guid: 082be48531bf06b42960347d119c209f, type: 3}
+--- !u!114 &1860633301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1860633295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_InteractionManager: {fileID: 640739369}
+  m_Colliders: []
+  m_InteractionLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_InteractionLayers:
+    m_Bits: 1
+  m_SelectMode: 1
+  m_CustomReticle: {fileID: 0}
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1818273632}
+        m_TargetAssemblyTypeName: interactWithNPC, Assembly-CSharp
+        m_MethodName: toggleUi
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnFirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnLastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnSelectCanceled:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnActivate:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnDeactivate:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1906643923
 GameObject:
   m_ObjectHideFlags: 0
