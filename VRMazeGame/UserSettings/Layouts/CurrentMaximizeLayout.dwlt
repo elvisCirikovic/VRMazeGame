@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 1862
+  controlID: 4585
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -250,9 +250,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -47.831966, y: -11.927509, z: 121.10314}
+    m_Target: {x: 10.282546, y: 0.87640953, z: 207.99612}
     speed: 2
-    m_Value: {x: -47.831966, y: -11.927509, z: 121.10314}
+    m_Value: {x: 10.282546, y: 0.87640953, z: 207.99612}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -299,20 +299,20 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.47363126, y: -0.06510888, z: 0.034641583, w: 0.8779184}
+    m_Target: {x: -0.43877095, y: 0.5634396, z: -0.5159903, w: -0.47467497}
     speed: 2
-    m_Value: {x: 0.47219428, y: -0.06514432, z: 0.03453504, w: 0.8784055}
+    m_Value: {x: -0.43914175, y: 0.5622294, z: -0.5164368, w: -0.47365135}
   m_Size:
-    m_Target: 15.668219
+    m_Target: 14.95482
     speed: 2
-    m_Value: 15.668219
+    m_Value: 14.95482
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 1
-    m_SpeedNormalized: 0.5
+    m_Speed: 1.7801095
+    m_SpeedNormalized: 0.88999975
     m_SpeedMin: 0.001
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -354,7 +354,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 1863
+  controlID: 4586
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -379,7 +379,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 1864
+  controlID: 4587
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -390,7 +390,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
+  m_Name: SceneHierarchyWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -436,10 +436,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 8c720000
-      m_LastClickedID: 29324
-      m_ExpandedIDs: 0eaafcff6ce6fcfff8fcfcff6037fdff6837fdffe850fdffe058fdff145cffff8264ffff1a9bffff30fbffff226f00002e6f0000406f0000b06f000026730000
+      scrollPos: {x: 0, y: 12568}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 30fbffff966f0000e87b0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -455,7 +455,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 5}
+        m_ClientGUIView: {fileID: 0}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -650,22 +650,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Shi Wei's Maze/Blue Dungeon/prefabs/walls
+    - Assets/Shi Wei's Maze/Blue Dungeon/prefabs/specials
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Shi Wei's Maze/Blue Dungeon/prefabs/walls
+  - Assets/Shi Wei's Maze/Blue Dungeon/prefabs/specials
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Programming\Projects\Unity Project\VRMazeGame\VRMazeGame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 146.20001}
-    m_SelectedIDs: b27e0000
-    m_LastClickedID: 32434
-    m_ExpandedIDs: 00000000947e0000967e0000987e00009a7e00009c7e0000aa7e000000ca9a3b
+    m_SelectedIDs: 10960000
+    m_LastClickedID: 38416
+    m_ExpandedIDs: 00000000f2950000f4950000f6950000f8950000fa9500000896000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -693,7 +693,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000947e0000967e0000987e00009a7e00009c7e000000ca9a3b
+    m_ExpandedIDs: 00000000f2950000f4950000f6950000f8950000fa95000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -718,8 +718,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 8c720000
-    m_LastClickedInstanceID: 29324
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
