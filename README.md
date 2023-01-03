@@ -6,3 +6,6 @@ This project does NOT work with the google cardboard.
 
 Controls:
 Left analog stick to move around, right trigger to interact with UI elements.
+
+Demo:
+https://www.youtube.com/watch?v=Atu2h8Y1qnA
